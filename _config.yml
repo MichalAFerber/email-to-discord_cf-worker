@@ -1,0 +1,21 @@
+title: email-to-discord
+description: Cloudflare Worker that forwards inbound email-routing webhooks to Discord channels — HTML→Markdown conversion and attachment support.
+
+theme: jekyll-theme-cayman
+repository: MichalAFerber/email-to-discord_cf-worker
+show_downloads: false
+
+plugins:
+  - jekyll-seo-tag
+
+# The site is just the README landing page — keep the Worker code out of the build.
+exclude:
+  - node_modules
+  - src
+  - tests
+  - wrangler.toml
+  - package.json
+  - package-lock.json
+  - tsconfig.json
+  - deploy.yml
+  - .gitignore
